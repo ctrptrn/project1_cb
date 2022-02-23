@@ -21,7 +21,7 @@ def menu():
         print('4. Menghapus Data PO')
         print('5. Exit\n')
         print('----------------------------------------------------')
-        option = input('Pilih sub menu Record PO [1-5]:')
+        option = input('Pilih menu Record PO [1-5]:')
         if option == '1':
             read_data()
         elif option == '2':
