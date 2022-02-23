@@ -14,14 +14,14 @@ def menu():
     option = True
     while option != '5':
         print('---------------------------------------------------')
-        print('\n==========Record PO Item Warung Pompom==========\n')
+        print('\n==========Record PO Warung Pompom==========\n')
         print('1. Laporan PO')
         print('2. Membuat PO Baru')
         print('3. Mengubah Data PO')
         print('4. Menghapus Data PO')
         print('5. Exit\n')
         print('----------------------------------------------------')
-        option = input('Pilih sub menu Record Stock Item [1-5]:')
+        option = input('Pilih sub menu Record PO [1-5]:')
         if option == '1':
             read_data()
         elif option == '2':
